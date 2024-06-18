@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>我的家乡——江西·兴国</title>
+        <style>
+            a:hover{
+                color: #8d0100;
+            }
+            .content {
+                display: flex;
+                flex-direction: row;
+            }
+            .items {
+                width: 130px;
+                color: #fff;
+            }
+            .menu{
+                width: 100%;
+                height: 45px;
+                line-height: 45px;
+                text-align: center;
+                position: relative;
+                overflow: hidden;
+                font-size: 22px;
+            }
+            .menu:hover{
+                overflow: visible;
+                background: #8d0100;
+                color: white;
+                z-index: 999;
+                cursor: pointer;
+            }
+            .drop{
+                background: #8d0100;
+                text-align: center;
+                width: 100%;
+                height: 45px;
+                line-height: 45px;
+                overflow: hidden;
+            }
+            .drop:hover{
+                cursor: pointer;
+            }
+            :root {
+                --s: 10;
+                --w: 360;
+                --speed: 3s;
+            }
+            .container {
+                margin: auto;
+                width: calc(var(--w) * 1px);
+                height: 235px;
+                line-height: 280px;
+                border-radius: 4px;
+                border: 1px solid darkgray;
+                overflow: hidden;
+            }
+            ul {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-wrap: nowrap;
+                animation: move calc(var(--speed) * var(--s)) steps(var(--s)) infinite;
+            }
+            ul li {
+                flex-shrink: 0;
+                width: 100%;
+                height: 100%;
+                white-space: nowrap;
+                list-style: none;
+                animation: liMove calc(var(--speed)) infinite;
+            }
+            ul li img {
+                width: 100%;
+                height: 100%;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <table width="100%" cellspacing="0" border="0">
+            <tr bgcolor="#8d0100">
+                <td colspan="7" style="text-align: center;"><img src="../首页主图.png" width="100%"></td>
+            </tr>
+            <tr style="color: #fff;" bgcolor="#8d0100" align="center">
+                <td width="10%" style="font-size: 22px;"><a href="../index.html" target="_parent" style="color: #fff; font-size: 22px;">首&nbsp;&nbsp;页</a></td>
+                <td width="15%">
+                    <div class="items">
+                        <div class="menu">
+                            <span><a href="../地区简介/地区简介.html" style="color: #fff; font-size: 22px;" target="_parent">地区简介</a></span>
+                            <div>
+                                <div class="drop"><a href="../地区简介/领导班子.html" style="color: #fff; font-size: 22px;" target="_parent">领导班子</a></div>
+                                <div class="drop"><a href="../地区简介/行政规划.html" style="color: #fff; font-size: 22px;" target="_parent">行政区划</a></div>
+                                <div class="drop"><a href="../地区简介/荣誉称号.html" style="color: #fff; font-size: 22px;" target="_parent">荣誉称号</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td width="15%">
+                    <div class="items">
+                        <div class="menu">
+                            <span>自然资源</span>
+                            <div>
+                                <div class="drop"><a href="../自然资源/水资源.html" style="color: #fff; font-size: 22px;" target="_parent">水资源</a></div>
+                                <div class="drop"><a href="../自然资源/土地资源.html" style="color: #fff; font-size: 22px;" target="_parent">土地资源</a></div>
+                                <div class="drop"><a href="../自然资源/生物资源.html" style="color: #fff; font-size: 22px;" target="_parent">生物资源</a></div>
+                                <div class="drop"><a href="../自然资源/矿产资源.html" style="color: #fff; font-size: 22px;" target="_parent">矿产资源</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td width="15%">
+                    <div class="items">
+                        <div class="menu">
+                            <span>社会事业</span>
+                            <div>
+                                <div class="drop"><a href="../社会事业/教育事业.html" style="color: #fff; font-size: 22px;" target="_parent">教育事业</a></div>
+                                <div class="drop"><a href="../社会事业/文化事业.html" style="color: #fff; font-size: 22px;" target="_parent">文化事业</a></div>
+                                <div class="drop"><a href="../社会事业/医疗卫生.html" style="color: #fff; font-size: 22px;" target="_parent">医疗卫生</a></div>
+                                <div class="drop"><a href="../社会事业/社会保障.html" style="color: #fff; font-size: 22px;" target="_parent">社会保障</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td width="15%">
+                    <div class="items">
+                        <div class="menu">
+                            <span>历史文化</span>
+                            <div>
+                                <div class="drop"><a href="../历史文化/历史沿革.html" style="color: #fff; font-size: 22px;" target="_parent">历史沿革</a></div>
+                                <div class="drop"><a href="../历史文化/地名由来.html" style="color: #fff; font-size: 22px;" target="_parent">地名由来</a></div>
+                                <div class="drop"><a href="../历史文化/风俗民情.html" style="color: #fff; font-size: 22px;" target="_parent">风俗民情</a></div>
+                                <div class="drop"><a href="../历史文化/非物质文化.html" style="color: #fff; font-size: 22px;" target="_parent">非物质文化</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td width="15%">
+                    <div class="items">
+                        <div class="menu">
+                            <span>风景名胜</span>
+                            <div>
+                                <div class="drop"><a href="../风景名胜/冰心洞.html" style="color: #fff; font-size: 22px;" target="_parent">冰心洞</a></div>
+                                <div class="drop"><a href="../风景名胜/大乌山.html" style="color: #fff; font-size: 22px;" target="_parent">大乌山</a></div>
+                                <div class="drop"><a href="../风景名胜/红兴谷.html" style="color: #fff; font-size: 22px;" target="_parent">红兴谷</a></div>
+                                <div class="drop"><a href="../风景名胜/十八排.html" style="color: #fff; font-size: 22px;" target="_parent">十八排</a></div>
+                                <div class="drop"><a href="../风景名胜/将军公园.html" style="color: #fff; font-size: 22px;" target="_parent">将军公园</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td width="15%">
+                    <div class="items">
+                        <div class="menu">
+                            <span><a href="../经济发展/经济发展.html" style="color: #fff; font-size: 22px;" target="_parent">经济发展</a></span>
+                            <div>
+                                <div class="drop"><a href="../经济发展/第一产业.html" style="color: #fff; font-size: 22px;" target="_parent">第一产业</a></div>
+                                <div class="drop"><a href="../经济发展/第二产业.html" style="color: #fff; font-size: 22px;" target="_parent">第二产业</a></div>
+                                <div class="drop"><a href="../经济发展/第三产业.html" style="color: #fff; font-size: 22px;" target="_parent">第三产业</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table width="100%">
+            <tr>
+                <td width="20%" align="center" height="70px"><a href="教育事业.html" target="_parent" style="font-size: 24px;">教育事业</a></td>
+                <td rowspan="8" valign="top">
+                    <p style="text-align: right;"><b>当前位置：</b><a href="../index.html" target="_parent">首页</a> | <a href="教育事业.html" target="_parent">社会事业</a> | 医疗卫生</p>
+                    <p style="text-align: center; font-size: 30px; color: #8d0100; font-weight: bold; font-family: '微软雅黑';">兴国县医疗卫生情况<hr color="#8d0100"></p>
+                    <p style="font-size: 20px;text-indent: 2em;line-height: 30px;">2022年末，兴国县共有卫生机构912个，其中医院14个，卫生院25个，村卫生室796个，诊所、卫生所、医务室共70个，疾病预防控制中心1个，专科疾病防治院（所、站）2个，妇幼保健院1个。卫生技术人员5233人，其中执业医师和执业（助理）医师1815人，注册护士2640人。卫生机构床位4015张。</p>
+                </td>
+            </tr>
+            <tr>
+                <td width="20%" align="center" height="70px"><a href="文化事业.html" target="_parent" style="font-size: 24px;">文化事业</a></td>
+            </tr>
+            <tr>
+                <td width="20%" align="center" height="70px" bgcolor="#8d0100"><a href="医疗卫生.html" target="_parent" style="font-size: 24px;color: #fff; ">医疗卫生</a></td>
+            </tr>
+            <tr>
+                <td width="20%" align="center" height="70px"><a href="社会保障.html" target="_parent" style="font-size: 24px;">社会保障</a></td>
+            </tr>
+            <tr>
+                <td width="20%" align="center" style="font-size: 24px; " height="70px"></td>
+            </tr>
+            <tr>
+                <td width="20%" align="center" style="font-size: 24px; " height="70px"></td>
+            </tr>
+            <tr>
+                <td width="20%" align="center" style="font-size: 24px; " height="70px"></td>
+            </tr>
+            <tr>
+                <td width="20%" align="center" style="font-size: 24px; " height="70px"></td>
+            </tr>
+        </table>
+        <table width="100%" bgcolor="#8d0100">
+            <tr>
+                <td align="center" width="10%" style="color: white"><img src="../头像1.png" width="100%"><br>©终灰</td>
+                <td width="60%">
+                    <h style="color: yellow; font-size: 50px; font-family: 'times'; ">《Web系统基础》课程大作业<br></h>
+                    <h style="color: #fff; font-size: 20px; font-family: 'times';"><center>网站主题：我的家乡——江西·兴国<br>班级：计科2302班&nbsp;&nbsp;姓名：谢忠辉&nbsp;&nbsp;学号：6020232553<br><div id ="clock"></div></center></h>
+                </td>
+                <td width="30" align="right">
+                    <img src="../页脚图.png" width="300px">
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
